@@ -72,7 +72,7 @@ function QuestionsLayout() {
     return (
         <div className='d-flex justify-center items-center'>
             <div className="d-flex flex-column question-container bg-white mt-5 p-5 col-lg-6 mx-auto">
-                <h6 className="question-index text-info">Question {currentQuestion} of {assessment.questions.length}</h6>
+                <h6 className="question-index text-info"> {currentQuestion} of {assessment.questions.length}</h6>
 
                 <h3 className="question-text">{assessment.questions[currentQuestion - 1].question}</h3>
                 <hr className='shadow-lg' />
